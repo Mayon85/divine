@@ -555,6 +555,7 @@ header {
     text-align: center;
     color: #cf897e;
     font-weight: 100;
+    padding-top: 5px;
 }
 
 a.go-shopping {
@@ -582,7 +583,7 @@ a.go-shopping:hover p.view {
 #bestseller .btn {
     text-transform: uppercase;
     text-align: center;
-    width: 200px;
+    width: auto;
     margin: 0 auto;
 }
 
@@ -596,6 +597,7 @@ a.go-shopping:hover p.view {
 #insta {
     padding: 80px 0;
     background-color: #373c47;
+    overflow: hidden;
 }
 
 .slideshow-container {
@@ -618,6 +620,7 @@ a.go-shopping:hover p.view {
     position: relative;
     display: flex;
     width: 20%;
+    font-weight: lighter;
 }
 
 #insta .filter {
@@ -804,6 +807,7 @@ a.go-shopping:hover p.view {
     border: none;
     padding-bottom: 8px;
     color: #fcbcb2;
+    width: 100%;
 }
 
 .container-form .btn {
