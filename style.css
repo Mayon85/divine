@@ -44,6 +44,7 @@ header {
     flex-direction: column;
     position: relative;
     height: 90vh;
+    overflow: hidden;
 }
 
 #fixed-bars {
@@ -526,9 +527,9 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 350px;
+    width: 25%;
     margin: 20px auto;
-    flex: 1 1 12rem;
+    flex: 1 1;
 }
 
 .products-container .best {
